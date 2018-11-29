@@ -1,1 +1,2 @@
-# 1612018_1612041_1612082_1612213_NMCNPM_FinalProject
+Thứ 5 - 29 - 11 - 2018
+-Quốc Anh: Tạo file, bổ sung màn hình "Login", màn hình "Info", màn hình "Rank"
