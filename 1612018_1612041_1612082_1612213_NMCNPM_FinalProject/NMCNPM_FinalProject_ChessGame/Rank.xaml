@@ -1,0 +1,44 @@
+﻿<Window x:Class="NMCNPM_FinalProject_ChessGame.Rank"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NMCNPM_FinalProject_ChessGame"
+        mc:Ignorable="d"
+       Title="Rank" Height="600" Width="800">
+    <Grid Width="600" Height="500" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Label x:Name="Title" Content="RANK" FontSize="35" FontFamily="Times New Roman" HorizontalAlignment="Center"/>
+        <WrapPanel Margin="0,50,0,0" Orientation="Vertical" >
+            <WrapPanel x:Name="Header" Height="50">
+                <Label x:Name="Rank" Width="100" FontSize="25" BorderBrush="#FF080707" BorderThickness="4" HorizontalContentAlignment="Center" Content="RANK"/>
+                <Label x:Name="Player" Width="250" FontSize="25" BorderBrush="#FF080707" BorderThickness="4" HorizontalContentAlignment="Center" Content="PLAYER"/>
+                <Label x:Name="Score" Width="250" FontSize="25" BorderBrush="#FF080707" BorderThickness="4" HorizontalContentAlignment="Center" Content="SCORE"/>
+            </WrapPanel>
+            <WrapPanel x:Name="First" Height="50">
+                <Label x:Name="txtRankFirst" Width="100" FontSize="25" HorizontalContentAlignment="Center" Content="1."/>
+                <TextBlock x:Name="txtPleyeFirst" Width="250" FontSize="25"/>
+                <TextBlock x:Name="txtScoreFirst" Width="250" FontSize="25"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Second" Height="50">
+                <Label x:Name="txtRankSec" Width="100" FontSize="25" HorizontalContentAlignment="Center" Content="2."/>
+                <TextBlock x:Name="txtPleyeSec" Width="250" FontSize="25"/>
+                <TextBlock x:Name="txtScoreSec" Width="250" FontSize="25"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Third" Height="50">
+                <Label x:Name="txtRankThrd" Width="100" FontSize="25" HorizontalContentAlignment="Center" Content="3."/>
+                <TextBlock x:Name="txtPleyeThrd" Width="250" FontSize="25"/>
+                <TextBlock x:Name="txtScoreThrd" Width="250" FontSize="25"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Fourth" Height="50">
+                <Label x:Name="txtRankFour" Width="100" FontSize="25" HorizontalContentAlignment="Center" Content="4."/>
+                <TextBlock x:Name="txtPleyeFour" Width="250" FontSize="25"/>
+                <TextBlock x:Name="txtScoreFour" Width="250" FontSize="25"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Five" Height="50">
+                <Label x:Name="txtRankFive" Width="100" FontSize="25" HorizontalContentAlignment="Center" Content="5."/>
+                <TextBlock x:Name="txtPleyeFive" Width="250" FontSize="25"/>
+                <TextBlock x:Name="txtScoreFive" Width="250" FontSize="25"/>
+            </WrapPanel>
+        </WrapPanel>
+    </Grid>
+</Window>
